@@ -34,7 +34,7 @@ p {
 body {
     background-color: hsl(47, 88%, 63%);
     min-height: 100vh;
-    font-family: Figtree;
+    font-family: Figtree, sans-serif; 
 }
 
 main {
@@ -65,16 +65,15 @@ main {
     padding: 6px 17px;
     margin-top: 0.7em;
     font-size: 1em;
-    font-family: 'Figtree Bold';
+    font-family: 'Figtree Bold', sans-serif; 
 }
 
 .date_publication {
-    font-family: 'Figtree Medium';
+    font-family: 'Figtree Medium', sans-serif; 
 }
 
 .title_heading {
-    font-family: 'Figtree Bold';
-}
+    font-family: 'Figtree Bold', sans-serif; 
 
 
 
@@ -83,7 +82,7 @@ main {
 }
 
 .avatar_name {
-    font-family: 'Figtree Bold';
+    font-family: 'Figtree Bold', sans-serif; 
     margin: 0;
     padding-left: 10px;
 }
