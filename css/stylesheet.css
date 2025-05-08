@@ -11,18 +11,20 @@
     font-family: 'Figtree Medium';
     src: url(../assets/fonts/static/Figtree-Medium.ttf);
     font-style: normal;
-    font-weight: 300;
 }
 @font-face {
     font-family: 'Figtree Bold';
     src: url(../assets/fonts/static/Figtree-ExtraBold.ttf);
     font-style: normal;
-    font-weight: 400;
 }
 
 .flex {
     display: flex;
     align-items: center;
+}
+
+p {
+    font-size: 16px;
 }
 
 body {
@@ -54,10 +56,11 @@ main {
 
 #learning {
     background-color: hsl(47, 88%, 63%);
-    border-radius: 10px;
+    border-radius: 5px;
     width: fit-content;
-    padding: 10px 15px;
-    margin-top: 1em;
+    padding: 6px 17px;
+    margin-top: 0.7em;
+    font-size: 1em;
     font-family: 'Figtree Bold';
 }
 
@@ -89,5 +92,38 @@ div[class=flex] {
 
 
 @media SCREEN and (max-width: 375px) {
-   
+    #card {
+        width: 280px;
+        padding: 25px;
+        border: 1px solid black;
+        border-radius: 20px;
+        box-shadow: 10px 10px black;
+    }
+
+    #illu {
+        height: 200px;
+        object-fit: cover;
+    }
+    
+    #learning {
+        margin-top: 1.5em;
+        font-size: 13px;
+    }
+
+    #learning + p {
+        font-size: 13px;
+    }
+
+    #card h2 {
+        font-size: 20px;
+    }
+
+    #card > div > h2 + p {
+        font-size: 13px;
+        letter-spacing: f;
+    }
+
+    #avatar {
+        width: 30px;
+    }
    }
